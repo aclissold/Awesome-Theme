@@ -9,15 +9,15 @@ theme.font          = "DejaVu Sans 10"
 theme.bg_normal     = "#330000"
 theme.bg_focus      = "#990000"
 theme.bg_urgent     = "#ffffff"
---theme.bg_minimize   = "#444444"
+-- theme.bg_minimize   = "#444444"
 
 theme.fg_normal     = "#bbbbbb"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#000000"
---theme.fg_minimize   = "#ffffff"
+-- theme.fg_minimize   = "#ffffff"
 
 theme.border_width  = "1"
-theme.border_normal = "#330000"
+theme.border_normal = "#33000000"
 theme.border_focus  = "#990000"
 theme.border_marked = "#003333"
 
@@ -74,11 +74,12 @@ theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/defau
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "awsetbg /home/ajclisso/Dropbox/Work/Pictures/Backgrounds/Largo.PNG" }
+-- theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/default/background.png" }
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
 theme.layout_fairv = "/usr/share/awesome/themes/default/layouts/fairvw.png"
+-- This gets rid of the ugly wing on maximized windows
 theme.layout_floating  = "~/.config/awesome/themes/red/layouts/floatingw.png"
 theme.layout_magnifier = "/usr/share/awesome/themes/default/layouts/magnifierw.png"
 theme.layout_max = "/usr/share/awesome/themes/default/layouts/maxw.png"
@@ -90,7 +91,8 @@ theme.layout_tiletop = "/usr/share/awesome/themes/default/layouts/tiletopw.png"
 theme.layout_spiral  = "/usr/share/awesome/themes/default/layouts/spiralw.png"
 theme.layout_dwindle = "/usr/share/awesome/themes/default/layouts/dwindlew.png"
 
-theme.awesome_icon = "/usr/share/awesome/icons/red16.png"
+-- theme.awesome_icon = "/usr/share/awesome/icons/awesome16.png"
+theme.awesome_icon = "~/.config/awesome/themes/red/red16.png"
 
 return theme
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
